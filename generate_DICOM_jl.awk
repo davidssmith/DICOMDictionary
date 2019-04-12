@@ -4,7 +4,7 @@
 
 BEGIN {
 	print "_dcmdict_data_ = Any["
-	FS=","
+	FS="\t"
 }
 
 !/^#/ {
